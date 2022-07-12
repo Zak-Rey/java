@@ -1,0 +1,24 @@
+Strings in java are not primitive types (like int , char, etc). Instead, all strings are objects of class String(that is already predefined).
+All string variables are instances of the string class.
+We have different string operations: 
+This operations are accomplished mainly by methods like
+length() for getting length.
+concat() for joining two strings. syntax is first.concat(second)
+equal() for comparing.
+contains() for checking whether a string contains a substring.
+substring() returns the substring of the string.
+join() joins a given string using the delimeter.
+replace() replaces the specified old character with the spacified new char.
+replaceAll() replaces all substring matchng the regex pattern.
+getBytes() converts the string to an array of bytes.
+indexOf() returns the position of the specified character in the string.
+compareTo() compares two strings in the dictionary order.
+compareToIgnoreCase() compares two strings ignoring case differences.
+trim() removes any leading and trailing whitespaces.
+formar() returns a formated string.
+split() breaks the string into an array of strings.
+
+\ is used as an escaoe character in java. for example if you want to include a double quotation marks in an output string, you put the backslash before the double quotation for it to be assumed as normal text.
+java strings are immutable, that is once created they cannot be changed.
+We can also use new key word to create strings in java since they are objects of the string class.
+using new to create strings in java creates new strings even if they already exists in the string pool unlike when using literals.
