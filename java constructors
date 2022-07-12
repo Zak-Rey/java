@@ -1,0 +1,85 @@
+A constructor is method that is invoked when an object of the main class is created.
+what makes it different from methods is that it has the same name as the class but has no any return type.
+
+Example:
+
+Class car{
+  car() {
+    //constructor body
+    }
+  }
+  
+car() is a constructor. It has the same name as that of it's class but has no any return type.
+constructors does not have return types because it's not called directly by your code, it's called by the memory allocation and the object initialization code in the runtime.
+If it has a return type, it's opaque to you and therefore you can't specify it.
+
+In the above example when an object of class car is created, the car constructor is createdis called.
+
+No-arguments constructors does not accepts parameters.
+Parameterized constructors accept one or more parameters.
+If no constructor is created, java compiler automatically create a no-arg constructor during the execution of the program.
+
+below is an example of a default constructor.
+
+        class Main {
+
+          int a;
+          boolean b;
+
+          public static void main(String[] args) {
+
+            // A default constructor is called
+            Main obj = new Main();
+
+            System.out.println("Default Value:");
+            System.out.println("a = " + obj.a);
+            System.out.println("b = " + obj.b);
+          }
+        }
+        
+              *N/B*
+              
+*Constructors are invoked implicitly when objects are instantiated.
+*The two rules for creating a constructor are: The name of the constructor should be the same as that of the class.
+                                              A java constructor must not have a return type.
+*If a class doesn't have a costructor, the java compiler automatically creates a default constructor during the run-time.
+The default constructor initializes variables with default values.
+*A constructor cannot be abstract, static or final.
+
+CONSTRUTOR OVERLOADING IN JAVA.
+
+Constructor overloading is creating of two or more constructors with the same name but different parameters, or different number of parameters.
+
+Example:
+        class Main {
+
+          String language;
+
+          // constructor with no parameter
+          Main() {
+            this.language = "Java";
+          }
+
+          // constructor with a single parameter
+          Main(String language) {
+            this.language = language;
+          }
+
+          public void getName() {
+            System.out.println("Programming Langauage: " + this.language);
+          }
+
+          public static void main(String[] args) {
+
+            // call constructor with no parameter
+            Main obj1 = new Main();
+
+            // call constructor with a single parameter
+            Main obj2 = new Main("Python");
+
+            obj1.getName();
+            obj2.getName();
+          }
+        }
+        
+In the example above, each constructor initializes the vaulue of lanuage differently when called based on the parameters passed during object creation.
