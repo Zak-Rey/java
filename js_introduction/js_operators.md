@@ -8,4 +8,5 @@ Operator | Name | Example
 `-=` | Subtraction assignment | `a -= 2;`
 `*=` | Multiplication assignment | `a *= 3;`
 `/=` | Division Assignment | `a /= 2;`
- 
+`%=` | Remainder Assignment | `a %= 2;`
+`**=` | Exponentiation Assignment	`a **= 2;` 
