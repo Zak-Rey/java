@@ -16,15 +16,14 @@ console.log(result); // 0
 
 //empty strings and null return 0
 
-let result;
 result = Number(null);
 console.log(result); //0
 
-let result; = Number(' ');
+result = Number(' ');
 console.log(result); //0
 
 //if a string is an invalid number or undefined, NaN is returned.
-let result;
+result;
 result = Number('hello');
 console.log(result); // NaN
 
@@ -37,7 +36,7 @@ console.log(result); // NaN
 
 //using parseInt(), parseFloat(), unary operator + and Math.floor() to generate numbers.
 
-let result;
+result;
 result = parseInt('20.01');
 console.log(result); // 20
 
