@@ -35,3 +35,18 @@ result = Number(NaN);
 console.log(result); // NaN
 
 
+//using parseInt(), parseFloat(), unary operator + and Math.floor() to generate numbers.
+
+let result;
+result = parseInt('20.01');
+console.log(result); // 20
+
+result = parseFloat('20.01');
+console.log(result); // 20.01
+
+result = +'20.01';
+console.log(result); // 20.01
+
+result = Math.floor('20.01');
+console.log(result); // 20
+
