@@ -19,3 +19,10 @@ const student = {
     class: 10
 };
 ```
+JavaScript is a dynamically typed language, a variables data type is automatically determined for you.
+
+It also means that a variable can be of one data type and later changed to another type. Check out the example below
+
+```javascript
+let data = 34; //typeof(data): number
+data = "Zak"; //typeof(data): String
