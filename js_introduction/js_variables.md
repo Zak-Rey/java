@@ -1,4 +1,5 @@
 **JavaScript variables**
+
 A variable is a container to hold data.
 
 ```javascript
