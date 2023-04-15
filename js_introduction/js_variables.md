@@ -1,4 +1,6 @@
-**JavaScript variables**
+let a = 'hello';
+let _a = 'hello';
+let $a = 'hello';**JavaScript variables**
 
 A variable is a container to hold data.
 
@@ -40,6 +42,7 @@ let $a = 'hello';
 4. Keywords cannot be used as variables names.
 
 **Java Script constants**
+
 Constants are types of variables whose values can't be changes onced they are initialized.
 ```javascript
 const x = 5;
