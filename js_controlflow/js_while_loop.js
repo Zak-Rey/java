@@ -7,3 +7,5 @@ while (number >= 0) {
 
     number = parseInt(prompt('Enter a number: '))
 }
+
+console.log(`The sum is ${sum}.`)
