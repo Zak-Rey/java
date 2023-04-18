@@ -1,4 +1,4 @@
 let greet = "Hello";
-let name = "Zak";
+let name = "zak";
 
 console.log(greet + " " + name);
