@@ -1,15 +1,29 @@
 //used in decision making, it evaluates an expression and excecutes the corresponding body that matches the expression's result.
-let a = 2;
+let result;
 
-switch (a) {
-    case 1:
-        a = 'one';
+const operator = prompt('Enter operator (either -, +, * , /');
+
+const number1 = parseFloat(prompt('Enter the first number: '));
+const number2 = parseFloat(prompt('Enter second number: '));
+
+switch(operator) {
+    case '+':
+        result = number1 + number2;
+        console.log(`${number1} + ${number2} = ${result}`);
         break;
-    case 2:
-        a = 'two';
+    case '*':
+        result = number1 * number2;
+        console.log(`${number1} + ${number2} = ${result}`);
+        break;
+    case '-':
+        result = number1 - number2;
+        console.log(`${number1} + ${number2} = ${result}`);
+        break;
+    case '/':
+        result = number1 / number2;
+        console.log(`${number1} + ${number2} = ${result}`);
         break;
     default:
-        a = 'not found';
+        console.log('Invalid operator');
         break;
 }
-console.log(`The value is ${a}`);
