@@ -31,7 +31,6 @@ The user is prompted to enter a name. When the function is called. an argument i
 *NB -> When a value is passed when declaring a function, it is called a parameter.
        when the function is called, the value passed is called an argument.
 
-hfhkj
 
 FUNCTION RETURN
     The return statement can be used to return the value to a function call.
